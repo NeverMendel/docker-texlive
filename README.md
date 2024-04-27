@@ -2,7 +2,7 @@
 
 Docker image based on Ubuntu with texlive.
 
-## Table of contents
+## 📝 Table of contents
 
 - [What's inside](#whats-inside)
 - [Downloading the image](#downloading-the-image)
@@ -11,7 +11,7 @@ Docker image based on Ubuntu with texlive.
   - [Not interactively](#not-interactively)
 - [License](#license)
 
-## What's inside
+## 📦 What's inside <a name="whats-inside"></a>
 
 This Docker image is based on `ubuntu:24:04` and it contains:
 
@@ -24,7 +24,7 @@ This Docker image is based on `ubuntu:24:04` and it contains:
 
 Additional packages can be installed with `apt install`.
 
-## Downloading the image
+## ⬇️ Downloading the image <a name="downloading-the-image"></a>
 
 The image is available on GitHub Container Registry.
 
@@ -33,7 +33,7 @@ Use `docker pull` to download the image:
   docker pull ghcr.io/nevermendel/docker-texlive
   ```
 
-## Running the image
+## 🚀 Running the image <a name="running-the-image"></a>
 
 You can choose whether you prefer to use the image interactively or not.
 
@@ -53,6 +53,6 @@ To use the image non-interactively, pass the command as an argument to `docker r
 docker run -it -v $(pwd):/usr/app --rm ghcr.io/nevermendel/docker-texlive "pdflatex file.tex"
 ```
 
-## License
+## License <a name="license"></a>
 
 [MIT License](LICENSE)
